@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "230426-drf-todolist"
+version = "0.1.0"
+description = ""
+authors = ["Churnobyl <tjdcjfals@gmail.com>"]
+readme = "README.md"
+packages = [{include = "230426_drf_todolist"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
